@@ -1,0 +1,2 @@
+#!/bin/sh
+xgettext -ktr -L Java -o po/pdfsam.pot --copyright-holder='Copyright 2022 by Andrea Vacondio (andrea@soberlemur.com)' --msgid-bugs-address=info@pdfsam.org --no-location $(find ../ -name "*.java" -not -path "*/.idea/*" -not -name "*Test.java") --from-code=UTF-8
